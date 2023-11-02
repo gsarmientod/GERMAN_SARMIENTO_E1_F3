@@ -40,3 +40,50 @@
 .read-the-docs {
   color: #888;
 }
+
+/*Estilos para forms*/
+form{
+  padding: 60px;
+  max-width: 400px;
+  background-color: #8b7c8d;
+  margin: 0 auto;
+  border-radius: 5%;
+  text-align: left;
+}
+
+form input, form textarea{
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box; 
+  border: none; 
+  color: #dfe8f3; 
+  font-size: 1em;
+  resize: none; 
+}
+
+form input::-webkit-input-placeholder{
+  text-align: center;
+}
+
+form button {
+    display: block;
+    background-color: #b000eb;
+    padding: 10px 45px 10px 45px;
+    border: 0;
+    font-size: 1em; 
+    color: 	white;
+  font-family: "Roboto", sans-serif;
+}
+form button:hover{
+    background-color: #5c0493;
+}
+
+.card-visible{
+  display: block;
+}
+
+.card-invisible{
+  display: none;
+}
